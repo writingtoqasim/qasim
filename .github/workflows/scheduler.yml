@@ -1,10 +1,13 @@
 name: Merge Schedule
 on:
   pull_request:
-      
+    types:
+      - opened
+      - edited
+      - synchronize
   schedule:
     # Check every hour.
-    - cron: 0/2 * * * *
+    - cron: 0/1 * * * *
 
 jobs:
   merge_schedule:
