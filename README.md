@@ -1,1 +1,1 @@
-this is a test
+this is a test to check git auto pull using crontab in ubuntu wsl windows
